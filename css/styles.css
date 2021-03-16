@@ -1,0 +1,18 @@
+html, body, .container, #sidebar, #map{
+  height: 100%;
+  margin: 0
+}
+
+.container{
+  display: flex;
+}
+
+#sidebar{
+  background-color: brown;
+  width: 320px;
+  }
+
+#map{
+  background-color: steelblue;
+  flex-grow: 1;
+}
